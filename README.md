@@ -11,7 +11,7 @@ Setting the -e flag is important to install the package in development mode and 
 - In case the user wants to conduct the experiment in another environment with a different algorithm the hyperparameters need to be adjusted accordingly.
 - The algorithms that can be used are SAC, PPO, TD3, DQN and A2C while the available policies are SACPolicy, ActorCriticPolicy, TD3Policy and DQNPolicy.
 - All functions including **run_multiple_trials** are documented in the package PARAMETER_INITIALIZATION_DEEP_RL.
-- The results of the experiment are logged to the **global_logging.csv** file
+- The results of the experiment are logged to the **global_logging.csv** file.
 
 ### Analyzing results:
 - The script for analyzing the results in the log file *global_logging.csv* is provided under *./analyze_results/analyze.ipynb*.
